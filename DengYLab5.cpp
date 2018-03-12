@@ -19,13 +19,13 @@ d)  Sequencing - Displays the difference between each adjacent set of values
 Ie if we had 3 5 2 9 0, we would get the output
 2 -3 7 -9
 This just needs to be printed, not saved
-e)  Search - Indicate whether the user¡¯s chosen value is contained in the array, or not (boolean result should be returned, ie function).
+e)  Search - Indicate whether the userÂ¡Â¯s chosen value is contained in the array, or not (boolean result should be returned, ie function).
 f)  Edit - The user is re-prompted for input into the array (all elements)
 g)  Exit - terminate the program
 3.  Loop back to step 2
 There should be at least 4 functions used in this program. The argument should be the array itself in most of these functions.
 
-You should probably use a global const int for array size. Do not use global variables unless they¡¯re constants!
+You should probably use a global const int for array size. Do not use global variables unless theyÂ¡Â¯re constants!
 */
 
 const int SIZE = 5;
@@ -152,8 +152,7 @@ bool search(int myArray[], int searchInt)
 	{
 		if (myArray[i] == searchInt)
 			return 1;
-		else
-			return 0;
+		return 0;
 	}
 }
 //edit
